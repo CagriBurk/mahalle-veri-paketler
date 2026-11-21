@@ -1,4 +1,22 @@
-# Mahalle Veri paketleri
+# Mahalle Veri packages
+
+Neighbourhood-level GeoPackage data with documented sources and dates. Load them into QGIS in
+one click with the [Mahalle Veri plugin](https://github.com/CagriBurk/mahalle-veri-qgis), or
+drag a `.gpkg` file into QGIS directly.
+
+- **Packages:** on the [Releases](../../releases) page, one release per package
+  (for example `izmir-2023-2026-11-19`).
+- **Contents (İzmir):** neighbourhood boundaries with population, age, marital status,
+  buildings, density, parks and amenity counts; district indicators from TÜİK; amenity,
+  transit stop and park layers; a `metadata` table with the URL, licence and date of every
+  source.
+- Unknown values are left empty (NULL); `0` is used only when a value is known to be zero.
+- **Licence:** ODbL 1.0 (derived from OpenStreetMap). Other sources: İzmir Metropolitan
+  Municipality Open Data Portal (CC BY 4.0) and TÜİK.
+
+---
+
+## Türkçe
 
 Mahalle düzeyinde, kaynağı ve tarihi belli veri paketleri (GeoPackage). Paketler QGIS'e [Mahalle Veri eklentisiyle](https://github.com/CagriBurk/mahalle-veri-qgis) tek tıkla yüklenir. Eklentisiz de açılabilir: bir `.gpkg` dosyasını QGIS'e sürükleyip bırakmanız yeterli.
 
